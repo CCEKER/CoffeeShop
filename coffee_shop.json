@@ -1,0 +1,176 @@
+{
+    "user": {
+        "id": "1234",
+        "name": "John Doe",
+        "location": {
+            "current": {
+                "id": "123",
+                "address": "Jl. Kpg Sutoyo",
+                "addressDetail": "Kpg. Sutoyo No. 620, Bilzen, Tanjungbalai.",
+                "coordinate": {
+                    "latitude": 41.005120,
+                    "longitude": 28.976200
+                }
+            },
+            "delivery": {
+                "id": "1245",
+                "address": "Bilzen",
+                "addressDetail": "Bilzen, Tanjungbalai",
+                "coordinate": {
+                    "latitude": 41.005500,
+                    "longitude": 28.976969
+                }
+            }
+        },
+        "imageUrl": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/25/17/ariana-grande.jpg"
+    },
+    "paymentType": "CASH",
+    "delivery": {
+        "fee": 200,
+        "currency": "$",
+        "deliveryTime": 10,
+        "driver": {
+            "id": "driverId",
+            "name": "Johan Hawn",
+            "title": "Personal Courier",
+            "imageUrl": "https://www.thestatesman.com/wp-content/uploads/2024/01/ustad-rashid-khan.jpg",
+            "coordinate": {
+                "latitude": 41.005500,
+                "longitude": 28.976969
+            }
+        }
+    },
+    "home": {
+        "promotions": [
+            {
+                "id": "20asd",
+                "image": "promo1"
+            },
+            {
+                "id": "10asd",
+                "image": "promo2"
+            },
+            {
+                "id": "10asd123",
+                "image": "promo3"
+            }
+        ],
+        "products": [
+            {
+                "section": {
+                    "id": "c1",
+                    "title": "Cappuccino"
+                },
+                "productList": [
+                    {
+                        "id": "P1",
+                        "title": "Cappucino",
+                        "subtitle": "with Chocolate",
+                        "imageUrl": "cappuccino1",
+                        "prices": [
+                            {
+                                "id": "id1",
+                                "type": "SMALL",
+                                "price": 453,
+                                "currency": "$"
+                            },
+                            {
+                                "id": "id12",
+                                "type": "MEDIUM",
+                                "price": 553,
+                                "currency": "$"
+                            },
+                            {
+                                "id": "id1123",
+                                "type": "LARGE",
+                                "price": 653,
+                                "currency": "$"
+                            }
+                        ],
+                        "score": 4.8,
+                        "vote": 230,
+                        "description": "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                        "ingredients": [
+                            {
+                                "id": "as3",
+                                "title": "coffee",
+                                "image": "core_icon_ingredients_coffee"
+                            },
+                            {
+                                "id": "as32",
+                                "title": "milk",
+                                "image": "core_icon_ingredients_milk"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "P2",
+                        "title": "Cappucino",
+                        "subtitle": "with Oat Milk",
+                        "imageUrl": "cappuccino2",
+                        "prices": [
+                            {
+                                "id": "id1asd",
+                                "type": "SMALL",
+                                "price": 253,
+                                "currency": "$"
+                            },
+                            {
+                                "id": "id12asd1",
+                                "type": "MEDIUM",
+                                "price": 353,
+                                "currency": "$"
+                            },
+                            {
+                                "id": "id1123das1",
+                                "type": "LARGE",
+                                "price": 453,
+                                "currency": "$"
+                            }
+                        ],
+                        "score": 4.9,
+                        "vote": 240,
+                        "description": "A cappuccino with Oat milk an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of oat milk. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                        "ingredients": [
+                            {
+                                "id": "as3",
+                                "title": "coffee",
+                                "image": "core_icon_ingredients_coffee"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "P3",
+                        "title": "Cappucino",
+                        "subtitle": "with Irish Cream",
+                        "imageUrl": "cappuccino3",
+                        "prices": [
+                            {
+                                "id": "idd1",
+                                "type": "SMALL",
+                                "price": 620,
+                                "currency": "$"
+                            },
+                            {
+                                "id": "id1s2",
+                                "type": "MEDIUM",
+                                "price": 660,
+                                "currency": "$"
+                            },
+                            {
+                                "id": "id1123a",
+                                "type": "LARGE",
+                                "price": 770,
+                                "currency": "$"
+                            }
+                        ],
+                        "score": 4.1,
+                        "vote": 20,
+                        "description": "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of irish cream. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                        "ingredients": []
+                    }
+                ]
+            }
+        ]
+    }
+}
